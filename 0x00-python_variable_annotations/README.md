@@ -1,4 +1,4 @@
-# 0x01. ES6 Promises 
+# 0x00. Python - Variable Annotations 
 
 In this project, I began practicing Variable Annotation, for my specialization into backend development using Python.
 
