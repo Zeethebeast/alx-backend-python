@@ -3,12 +3,12 @@
 Write a coroutine called
 async_generator that takes no arguments.
 '''
-from typing import AsyncGenerator
+from typing import Generator
 import asyncio
 from random import uniform
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> Generator[float, None, None]:
     '''
     The coroutine will loop 10 times,
     each time asynchronously wait 1 second,
